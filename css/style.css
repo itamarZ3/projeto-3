@@ -385,17 +385,17 @@ section.sessao4{
 .map-wrapper{
 	float: left;
 	width: 50%;
-	color: white;
-	padding: 0 10px;
+	color: white;	
+	/*padding: 0 10px;*/
 }
 
 .map-wrapper h2{
 	font-size: 23px;
-	font-weight: 300;	
+	font-weight: 300;
 }
 
 .map-wrapper3{
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	width: 100%;
 	max-width: 480px;
 	position: relative;
@@ -404,7 +404,7 @@ section.sessao4{
 .map-wrapper2{
 	position: absolute;
 	width: 100%;
-	padding-top: 100%;
+	/*padding-top: 100%;*/
 }
 
 .map{
@@ -414,7 +414,14 @@ section.sessao4{
 	width: 100%;
 	height: 100%;
 	background-color: white;
-	border: 5px solid rgb(200,200,200);
+	border: 1px solid rgb(200,200,200);
+	-webkit-box-shadow: 0px 10px 28px -10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 10px 28px -10px rgba(0,0,0,0.4);
+	box-shadow: 0px 10px 28px -10px rgba(0,0,0,0.4);
+}
+
+.mapouter{
+	border: 2px solid rgb(200,200,200);
 }
 
 /*FOOTER*/
@@ -575,6 +582,11 @@ footer p:nth-of-type(2){
 		width: 100%;
 		height: 100%;
 		padding-top: 0;
+	}
+
+	.mapouter{
+		text-align: center;
+		max-width: 480px;
 	}
 }
 
